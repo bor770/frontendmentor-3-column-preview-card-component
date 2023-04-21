@@ -1,0 +1,20 @@
+:host {
+  display: block;
+  padding: 3rem 3rem 3rem 3.062rem;
+}
+
+h2 {
+  color: var(--color-neutral-very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5rem;
+  margin-block: 1.937rem 1.75rem;
+}
+
+p {
+  line-height: 1.6;
+  padding-bottom: 0.75rem;
+}
+
+.learn-more {
+  background-color: var(--color-neutral-very-light-gray);
+}

@@ -1,0 +1,13 @@
+<img
+  src="../../assets/images/icon-{{ card.title }}.svg"
+  alt="{{ card.title }}"
+/>
+<h2>{{ card.title.toUpperCase() }}</h2>
+<p>{{ card.text }}</p>
+<a
+  class="learn-more"
+  extended
+  mat-fab
+  [ngStyle]="{ color: 'var(--color-primary-' + card.color + ')' }"
+  >Learn More</a
+>

@@ -1,0 +1,5 @@
+<app-card
+  *ngFor="let card of cards"
+  [card]="card"
+  [ngStyle]="{ backgroundColor: 'var(--color-primary-' + card.color + ')' }"
+></app-card>
