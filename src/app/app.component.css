@@ -1,7 +1,15 @@
-:host {
+/* :host {
   border-radius: 8px;
   display: block;
-  height: 31.25rem;
   overflow: hidden;
   width: 100%;
+} */
+
+/* .container {
+  padding: 5.5rem 6.667%;
+} */
+
+:host {
+  display: block;
+  padding: 5.5rem 6.667%;
 }
