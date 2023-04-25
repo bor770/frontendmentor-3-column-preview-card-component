@@ -18,3 +18,15 @@ p {
 .learn-more {
   background-color: var(--color-neutral-very-light-gray);
 }
+
+@media (min-width: 90rem) {
+  :host {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learn-more {
+    margin-top: auto;
+  }
+}

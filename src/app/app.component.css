@@ -1,15 +1,27 @@
-/* :host {
-  border-radius: 8px;
-  display: block;
-  overflow: hidden;
-  width: 100%;
-} */
-
-/* .container {
-  padding: 5.5rem 6.667%;
-} */
-
 :host {
   display: block;
   padding: 5.5rem 6.667%;
+}
+
+.container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (min-width: 90rem) {
+  :host {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 0 18.055%;
+  }
+
+  .container {
+    display: flex;
+    height: 31.25rem;
+  }
+
+  app-card {
+    width: 100%;
+  }
 }
