@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "frontendmentor-3-column": {
+      "hosting": {
+        "3-column-preview-card-component": [
+          "frontendmentor-3-column"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "frontendmentor-3-column"
+  }
+}

@@ -126,6 +126,16 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "3-column-preview-card-component:build:production",
+            "firebaseProject": "frontendmentor-3-column",
+            "firebaseHostingSite": "frontendmentor-3-column"
+          }
         }
       }
     }
